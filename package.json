@@ -9,8 +9,10 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "v-mask": "^2.0.2",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
+    "vuelidate": "^0.7.4",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
@@ -20,8 +22,8 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "node-sass": "^4.9.0",
-    "sass-loader": "^7.1.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.3.1",
     "vue-template-compiler": "^2.6.10"
   }
 }
