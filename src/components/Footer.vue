@@ -1,8 +1,10 @@
 <template>
   <div>
     <ColorBar></ColorBar>
-    <p>Vue School</p>
-    <p>Web Accessibility Fundamentals</p>
+    <div class="footer">
+      <p>Vue School</p>
+      <p>Web Accessibility Fundamentals</p>
+    </div>
   </div>
 </template>
 
@@ -16,3 +18,13 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+@import "@/scss/main.scss";
+.footer{
+  background-color: $footer_background;
+  color:white;
+  padding: 1em 0;
+}
+
+</style>

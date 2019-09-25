@@ -49,9 +49,6 @@ export default {
 
 <style lang="scss">
 @import "@/scss/main.scss";
-.resources {
-  background-color: $subBackground2;
-}
 .resources_title {
   color: $subHeader2;
   font-family: $subHeaderFont2;

@@ -4,7 +4,7 @@
     <img alt="Vue logo" src="@/assets/A11Y.svg">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/widgets">Widgets</router-link>
+      <router-link to="/font">Font</router-link>
     </div>
     <router-view/>
     <Footer/>

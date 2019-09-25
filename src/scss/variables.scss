@@ -3,42 +3,42 @@ $init_blue: #257DE4;
 $init_lightBlue: #78CEFF;
 $init_purple: #9013FE;
 $init_green: #41B883;
-$init_greenLight: #7ED321;
+$init_greenLight: #359C7A;
+$init_darkBlue: #35495E;
 $init_yellow: #E1D219;
 $init_red: #D0011B;
 $init_brown: #8B572A;
 $init_gray: #BDBDBD;
+$grayBackground: #EDEDED;
 
 
 // FONTS
 $Barriecito: 'Barriecito', cursive;
-$Beth: 'Beth Ellen', cursive;
-$Mountains: 'Mountains of Christmas', cursive;
-$Kristi: 'Kristi', cursive;
-
+$Saira: 'Saira Stencil One', cursive;
+$Slackey: 'Slackey', cursive;
 
 // DESIGNER BASICS
-$subBackground1: $init_blue;
-$subHeader1: $init_lightBlue;
-$subHeaderFont1: $Mountains;
-$subcontent1: $init_purple;
-$subcontentFont1: $Barriecito;
+$subBackground1: $grayBackground;
+$subHeader1: $init_greenLight;
+$subHeaderFont1: $Saira;
+$subcontent1: $init_darkBlue;
+$subcontentFont1: $Slackey;
 
 // RESOURCES
-$subBackground2: $init_greenLight;
-$subHeader2: $init_yellow;
-$subHeaderFont2: $Kristi;
-$subcontent2: $init_red;
-$subcontentFont2: $Beth;
+$subHeader2: $init_greenLight;
+$subHeaderFont2: $Saira;
+$subcontent2: $init_darkBlue;
+$subcontentFont2: $Slackey;
 
 // LEARN MORE
 $buttonSignUp: $init_brown;
 $buttonSignUpText: $init_red;
 
 // OTHER
-$buttonText: $init_red;
-$buttonBackground: $init_brown;
+$buttonText: $init_greenLight;
+$buttonBackground: $init_darkBlue;
 $links: $init_gray;
+$footer_background: $init_darkBlue;
 
 // COLOR BAR
 $init_1: #E1D219;

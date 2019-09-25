@@ -1,7 +1,9 @@
 <template>
-  <div>
-    <DesignBasics/>
-    <Resources/>
+  <div class="container">
+    <!-- <div > -->
+      <DesignBasics/>
+      <Resources/>
+    <!-- </div> -->
     <LearnMore/>
   </div>
 </template>

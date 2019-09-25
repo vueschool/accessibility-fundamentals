@@ -1,5 +1,5 @@
 <template>
-  <div class="footer" v-grid="'repeat(12, 1fr)'">
+  <div v-grid="'repeat(12, 1fr)'">
     <div
       class="colors"
       v-for="index in 12"

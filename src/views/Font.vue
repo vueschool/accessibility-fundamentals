@@ -6,6 +6,6 @@
 
 <script>
 export default {
-  name: 'Widgets'
+  name: 'Font'
 }
 </script>
