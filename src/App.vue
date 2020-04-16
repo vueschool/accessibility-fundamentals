@@ -8,7 +8,6 @@
     </div>
     <LearnMore/>
     <Resources/>
-    <ColorBar/>
     <Footer/>
   </div>
 </template>
@@ -18,7 +17,6 @@ import DesignBasics from '@/components/DesignBasics.vue'
 import Resources from '@/components/Resources.vue'
 import LearnMore from '@/components/LearnMore.vue'
 import Footer from "@/components/Footer.vue"
-import ColorBar from '@/components/ColorBar.vue'
 
 export default {
   name: "App",
@@ -26,7 +24,6 @@ export default {
     DesignBasics,
     Resources,
     LearnMore,
-    ColorBar,
     Footer
   }
 };

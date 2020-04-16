@@ -37,15 +37,24 @@ export default {
 @import "@/scss/main.scss";
 
 .learnMore {
-    max-width: 350px;
-    margin: 1em auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  max-width: 350px;
+  margin: 1em auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 
   .learnMore_resource {
     .learnMore_links {
-      color: $greenLight;
+      color: $links;
       font-family: $Roboto;
+
+      &:visited {
+        color: $linksVisited;
+      }
+
+      &:hover,
+      &:focus {
+        color: $linksHoverFocus;
+      }
     }
   }
 }
