@@ -44,7 +44,8 @@ export default {
 }
 
 .title{
-  color: $greenLight;
+  background-color: $darkBlue;	
+  color:white;
   padding: 1em 0;
   margin: 0 auto;
 }

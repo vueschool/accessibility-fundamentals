@@ -15,5 +15,7 @@ export default {
 .footer{
   padding: 1em 0;
   font-family: $Roboto;
+  background-color: $darkBlue;	
+  color:white;
 }
 </style>
