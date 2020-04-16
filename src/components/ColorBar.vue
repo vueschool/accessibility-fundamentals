@@ -1,5 +1,5 @@
 <template>
-  <div v-grid="'repeat(12, 1fr)'">
+  <div class="colorBar">
     <div
       class="colors"
       v-for="index in 12"
@@ -16,6 +16,11 @@ export default {
 
 <style lang="scss">
   @import "@/scss/main.scss";
+
+  .colorBar{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr)
+  }
   
   @for $i from 1 through length($colorBar) {
       .colors:nth-child(#{length($colorBar)}n+#{$i}) {

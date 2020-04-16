@@ -1,46 +1,51 @@
 <template>
   <div id="app">
-    <h1>Accessibility with Vue</h1>
-    <img alt="Vue logo" src="@/assets/A11Y.svg">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/font">Font</router-link>
+    <div class="container_top">
+      <div>
+        <h1 class="title">Accessibility with Vue</h1>
+      </div>
+      <DesignBasics/>
     </div>
-    <router-view/>
+    <LearnMore/>
+    <Resources/>
+    <ColorBar/>
     <Footer/>
   </div>
 </template>
 
 <script>
-import Footer from '@/components/Footer.vue'
+import DesignBasics from '@/components/DesignBasics.vue'
+import Resources from '@/components/Resources.vue'
+import LearnMore from '@/components/LearnMore.vue'
+import Footer from "@/components/Footer.vue"
+import ColorBar from '@/components/ColorBar.vue'
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
+    DesignBasics,
+    Resources,
+    LearnMore,
+    ColorBar,
     Footer
   }
-}
+};
 </script>
 
 <style lang="scss">
-body{
-  margin: 0;
-}
+@import "@/scss/main.scss";
+
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
 }
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+
+.title{
+  color: $greenLight;
+  padding: 1em 0;
+  margin: 0 auto;
 }
 </style>

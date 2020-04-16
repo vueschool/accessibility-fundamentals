@@ -1,5 +1,6 @@
-// @import "@/scss/main.scss";
-
 @import "./variables.scss";
-@import "./base.scss";
 @import "./media.scss";
+
+body {
+    margin: 0;
+  }
